@@ -23,27 +23,27 @@ A great beginner project using **AWS Lex Bot** and basic Python is creating a **
 
      
    - **Response Slots**:
-     - Add simple text responses for each intent. By going to the slot menu and select "Add Slot" and choose Add blank slot type. After you can define your responses to the intent. I choose restrict to slot values due to the company only offering
-       select services. You can define the slot type values by entering the word of the itme such as "Subscription" or "Laptop". Once they are set to your needs save the slot and navigate back to your Order Bot.
+     - Add simple text responses for each intent. By going to the slot menu select "Add Slot" and choose to Add blank slot type. After that, you can define your responses to the intent. I choose to restrict slot values due to the company only offering
+       select services. You can define the slot type values by entering the keyword, such as "Subscription" or "Laptop." Once they are set to your needs, save the slot and navigate back to your Order Bot.
        
        ![slot values](https://github.com/user-attachments/assets/78401843-f395-4f60-b689-0e4be47695c8)
 
 - **Setup Slots For Your Intent**:
-In order for your Lex Bot to understand what information is needed in order to fufill the intent. You must create your slot and specify the data you are looking for since we have created our slot permatirs it should be listed
+In order for your Lex Bot to understand what information is needed in order to fulfill the intent. You must create your slot and specify the data you are looking for. Since we have created our slot parameters, it should be listed
 under slot type. And you may prompt the user for information.
 
   ![Capture](https://github.com/user-attachments/assets/0b40e585-761c-4f3d-b69e-e2adc00d43aa)
 
-  I created two more slots to gather the users name and ask for them to define which subscription service they wanted. Yearly, Monthly ECT.
+  I created two more slots to gather the users' names and ask them to define which subscription service they wanted: annual or monthly ECT.
   ![all slots](https://github.com/user-attachments/assets/e666e46f-8d39-4c76-88f6-03ed5835f241)
 
 - **Intent Confirmation**:
-Once you have created all your slot respomnses specify your confirmation promp to the user. I chose "Great to meet you, {YourName}. Your {ProductType} order has been placed!". But you can enter anythging that will let your user know the bot acknoledges the requested task or information as completed.
+Once you have created all your slot responses, specify your confirmation prompt to the user. I chose "Great to meet you, {YourName}. Your {ProductType} order has been placed!". But you can enter anything that will let your user know the bot acknowledges the requested task or information as completed.
 ![confirmation](https://github.com/user-attachments/assets/aaa99098-0941-466f-ae59-e5f5a66791e5)
 
 - **Test Your ChatBot**:
-- Once you have finished creating your bot select build this may take several minutes to finish once it is completed it will offer you to test it. Prompt the bot with your sample utterances if it responds according to plan then you are ready to deploy your bot!
-  Here is my test responses and an overview of how it is mapped in the Visual Builder.
+- Once you have finished creating your bot, select build. This may take several minutes to finish; once it is completed, it will allow you to test it. Prompt the bot with your sample utterances. If it responds according to plan, then you are ready to deploy your bot!
+  Here are my test responses and an overview of how it is mapped in the Visual Builder.
  ![Test case](https://github.com/user-attachments/assets/91795d26-21b6-40f4-8591-c5346c765f6c)
 
 ![order confirmation](https://github.com/user-attachments/assets/b15e5f21-84b8-4f06-afb0-a593472e0bb9)
