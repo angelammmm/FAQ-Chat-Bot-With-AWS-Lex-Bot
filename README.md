@@ -71,7 +71,7 @@ client = boto3.client('lex-runtime')
 
 def chat_with_bot(user_input):
     response = client.post_text(
-        botName='FAQBot',           # Replace with your bot name
+        botName='OrderingBot',           # Replace with your bot name
         botAlias='Latest',          # Replace with your bot alias
         userId='user123',           # A unique user ID
         inputText=user_input        # The user input
@@ -79,7 +79,7 @@ def chat_with_bot(user_input):
     return response['message']
 
 if __name__ == "__main__":
-    print("Welcome to FAQBot! Type 'exit' to quit.")
+    print("Welcome to OrderingBot! Type 'exit' to quit.")
     while True:
         user_input = input("You: ")
         if user_input.lower() == 'exit':
