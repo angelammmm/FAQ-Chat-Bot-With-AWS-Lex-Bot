@@ -1,4 +1,4 @@
-# FAQ-Chat-Bot-With-AWS-Lex-Bot
+# Product And Ordering-Chat-Bot-With-AWS-Lex-Bot
 A great beginner project using **AWS Lex Bot** and basic Python is creating a **Chatbot for FAQs or Order Placement**. This project will give you experience in building conversational interfaces, integrating them with backend services, and managing basic AWS services. I used this same method to create a chatbot to help end users place orders for a hypothetical company that offers clients software as a service or company laptops. 
 
 ### Project: **Simple Order Placing Chatbot**
